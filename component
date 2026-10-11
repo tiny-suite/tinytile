@@ -1,0 +1,8 @@
+name = tinytile
+summary = tiny tiling wayland compositor
+build = make
+run = make run
+test = make test
+install = make install
+uninstall = make uninstall
+deps = wlroots-0.20 wayland-server xkbcommon

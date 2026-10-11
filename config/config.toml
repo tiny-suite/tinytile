@@ -1,0 +1,41 @@
+# TinyTile config
+# edit values, then run make
+
+# main modifier: Super or Alt
+modkey = "Super"
+
+# apps
+terminal = "st"
+menu = "rofi -show drun"
+browser = "firefox"
+
+# bar
+# set showbar to false to disable the built in bar (use waybar instead)
+showbar = true
+topbar = true
+
+# focus the window under the mouse without clicking (sloppy focus)
+focus_follows_mouse = false
+
+# tag names
+tags = ["1", "2", "3", "4", "5", "6", "7", "8", "9"]
+
+# window look
+border = 2
+gaps = 5
+snap = 32
+
+# layout
+mfact = 0.55
+nmaster = 1
+
+# colors
+norm_bg = "222222"
+norm_border = "444444"
+norm_fg = "bbbbbb"
+sel_fg = "eeeeee"
+sel_border = "88c0d0"
+sel_bg = "005577"
+
+# autostart, runs once at startup
+autostart = ["wbg /usr/share/backgrounds/default.png"]
